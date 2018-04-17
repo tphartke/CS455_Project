@@ -4,6 +4,7 @@ import random
 import sys
 import numpy as np
 import matplotlib.pyplot as plt
+import main
 
 outputFile = open(os.path.join(sys.path[0], 'Project2_Output.csv'), 'w')
 writer = csv.writer(outputFile)
